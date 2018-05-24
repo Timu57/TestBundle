@@ -23,9 +23,7 @@ of the Composer documentation.
         }
     ],
     "require": {
-        {
-            "timu57/test-bundle": "dev-master"
-        }
+        "timu57/test-bundle": "dev-master"
     }
 ```
 
