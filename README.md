@@ -1,13 +1,25 @@
 # Installation
 
 ## Step 1: Download the Bundle
-
+### Method 1
 Open a command console, enter your project directory and execute the
 following command to download the latest stable version of this bundle:
 
 ```console
 $ composer require timu57/test-bundle
 ```
+### Method 2
+```json
+    "repositories": [
+        {
+            "type": "vcs",
+            "url": "https://github.com/Timu57/TestBundle.git"
+        }
+    ],
+    "require": {
+        {
+            "timu57/test-bundle": "dev-master"
+        }
 
 This command requires you to have Composer installed globally, as explained
 in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
