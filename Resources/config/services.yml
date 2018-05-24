@@ -1,0 +1,9 @@
+services:
+#    timu57_test.example:
+#        class: Timu57\TestBundle\Example
+#        arguments: ["@service_id", "plain_value", "%parameter%"]
+
+    timu57_test:
+        public: true
+        class: Timu57\TestBundle\Service\TestService
+        arguments: ["%timu57.test.message1%", "%timu57.test.message2%", "@request_stack"]
