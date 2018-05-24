@@ -52,7 +52,7 @@
   "target-dir": "Timu57/TestBundle",
   "extra": {
     "branch-alias": {
-      "dev-master": "1.01-dev"
+      "dev-master": "1.0-dev"
     }
   }
 }
