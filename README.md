@@ -8,8 +8,14 @@ following command to download the latest stable version of this bundle:
 ```console
 $ composer require timu57/test-bundle
 ```
+This command requires you to have Composer installed globally, as explained
+in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
+of the Composer documentation.
+
 ### Method 2
+
 ```json
+# your composer.json
     "repositories": [
         {
             "type": "vcs",
@@ -20,10 +26,8 @@ $ composer require timu57/test-bundle
         {
             "timu57/test-bundle": "dev-master"
         }
-
-This command requires you to have Composer installed globally, as explained
-in the [installation chapter](https://getcomposer.org/doc/00-intro.md)
-of the Composer documentation.
+    }
+```
 
 ## Step 2: Enable the Bundle
 
