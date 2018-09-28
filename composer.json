@@ -10,7 +10,6 @@
       "homepage": "https://github.com/Timu57"
     }
   ],
-  "minimum-stability": "stable",
   "require": {
         "php": ">=5.4",
         "symfony/twig-bundle": "~2.3|~3.0|~4.0",
