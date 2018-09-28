@@ -4,13 +4,13 @@
   "keywords": ["test", "bundle", "symfony"],
   "type": "symfony-bundle",
   "license": "MIT",
+  "version": "1.0.0",
   "authors": [
     {
       "name": "Timucin",
       "homepage": "https://github.com/Timu57"
     }
   ],
-  "minimum-stability": "stable",
   "require": {
         "php": ">=5.4",
         "symfony/twig-bundle": "~2.3|~3.0|~4.0",
@@ -50,11 +50,5 @@
   "autoload": {
     "psr-0": { "Timu57\\TestBundle": "" }
   },
-  "target-dir": "Timu57/TestBundle",
-  "minimum-stability": "dev",
-  "extra": {
-        "branch-alias": {
-            "dev-master": "1.0-dev"
-        }
-  }
+  "target-dir": "Timu57/TestBundle"
 }
